@@ -304,7 +304,8 @@ body{
     font-size: 60px;
 }
 form input{
-    max-width: 150px;
+    width: 100%;
+    max-width: 100px;
     min-height: 65px;
     background-color: #1f4249;
     border: solid 1px rgb(117, 117, 117);
@@ -426,6 +427,7 @@ form{
     margin-left: 15px;
 
 }
+
 
 
 
