@@ -62,12 +62,11 @@ body{
 
 .text_div1 h1{
     color: white;
-
+    text-align: center;
 }
 
 .text_div1 p{
     color: white;
-
 }
 
 .text_div1{
@@ -427,4 +426,5 @@ form{
     color: white;
     font-size: 20px;
     margin-left: 15px;
+
 }
