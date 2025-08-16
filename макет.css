@@ -472,6 +472,12 @@ form{
         flex-direction: column;
     }
 }
+@media screen and (max-width: 470px){
+    .header{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
 
 .p3{
     color: white;
