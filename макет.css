@@ -442,7 +442,7 @@ form{
         font-size: 25px;
     }
 }
-@media screen and (max-width: 440px){
+@media screen and (max-width: 768px){
     form{
         width: 100%;
         flex-direction: column;
@@ -456,3 +456,4 @@ form{
         max-width: initial;
     }
 }
+
