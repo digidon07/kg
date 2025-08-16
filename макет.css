@@ -407,6 +407,7 @@ form{
     color: yellow;
     margin-left: 10px;
     font-size: 20px;
+    text-align: center;
 }
 .footer_text1{
     display: flex;
@@ -421,11 +422,12 @@ form{
     justify-content: space-around;
 }
 .p2{
+    text-align: center;
     color: white;
     font-size: 20px;
     margin-left: 15px;
 }
-.p3{
+.p6{
     color: white;
     font-size: 20px;
     margin-left: 15px;
@@ -442,7 +444,7 @@ form{
         font-size: 25px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 440px){
     form{
         width: 100%;
         flex-direction: column;
@@ -456,4 +458,23 @@ form{
         max-width: initial;
     }
 }
+@media screen and (max-width: 505px){
+    .p3{
+       text-align: center; 
+    }
+    .p6{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 426px){
+    .footer_text{
+        align-items: center;
+        flex-direction: column;
+    }
+}
 
+.p3{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
