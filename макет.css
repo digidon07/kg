@@ -317,11 +317,11 @@ form input{
 
 }
 form{
-    margin: auto;
-    max-width: 570px;
     min-height: 300px;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px;
     justify-content: space-between;
     align-items: center;
 }
@@ -427,6 +427,7 @@ form{
     margin-left: 15px;
 
 }
+
 
 
 
