@@ -62,10 +62,14 @@ body{
 
 .text_div1 h1{
     color: white;
+    text-align: center;
+
 }
 
 .text_div1 p{
     color: white;
+    text-align: center;
+
 }
 
 .text_div1{
@@ -317,11 +321,11 @@ form input{
 
 }
 form{
+    margin: auto;
+    max-width: 570px;
     min-height: 300px;
     display: flex;
-    width: 100%;
-    flex-direction: column;
-    padding: 15px;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -425,13 +429,30 @@ form{
     color: white;
     font-size: 20px;
     margin-left: 15px;
-
 }
-
-
-
-
-
-
-
-
+@media screen and (max-width: 980px){
+    .b1{
+        background-position: center;
+        background-size: initial;
+    }
+    .text_cont h1{
+        font-size: 45px;
+    }
+    .text_cont p{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 440px){
+    form{
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+        flex-wrap: nowrap;
+        max-width: initial;
+        margin: initial;
+    }
+    form input{
+        width: 100%;
+        max-width: initial;
+    }
+}
